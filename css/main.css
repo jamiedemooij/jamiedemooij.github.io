@@ -1,0 +1,49 @@
+
+.linktheme {
+    border-style:solid;
+    border-width:medium;
+    margin:10px;
+    border-radius:15px;
+    }
+
+.navtheme .linktheme:hover {
+        background-color: #e3e2df;
+      }
+
+.navtheme {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EE4C7C;
+    border-style:solid;
+    border-width:3px;
+      }
+  
+.buttontheme {
+    float: left;
+  }
+  
+.buttontheme .linktheme {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+    background-color: #E3AFBC;
+  }
+  
+
+.navtheme .active{
+    background-color: #9e0435;
+}
+
+.bodyclass{
+    background-color:#E3AFBC;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.headerclass{
+    text-align:center;
+    font-size: large;
+}
