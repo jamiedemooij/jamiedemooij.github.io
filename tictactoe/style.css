@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 10px;
+}
+
+html,
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: blanchedalmond;
+}
+
+.field {
+  border: 3px solid black;
+  height: 100px;
+  width: 100px;
+  padding: top 10px bottom 10px;
+  font-size:75px;
+  background-color:rgb(184, 184, 184);
+  text-align:center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  float:none;
+  }
+
+.field:hover {
+  background-color: rgb(97, 97, 97);
+}
+
+.currentlyPlaying{
+  font-weight:bolder;
+}
+/* Add correct CSS here for a grid overview */
