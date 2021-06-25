@@ -4,39 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/dark-theme.css">
-    <title>Projects and such</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bodyclass">
-    <nav>
-        <ul class="navtheme">
-            <li class="buttontheme"> <a class="linktheme" href="index.html">
-                Home
-            </a>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a class="navbar-brand" href="#">Portfolio Jamie De Mooij</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
             </li>
-            <li class="buttontheme"> <a class="linktheme" href="aboutme.html">
-                About Me
-            </a>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutme.html">About Me</a>
             </li>
-            <li class="buttontheme"> <a class="linktheme active" href="projects.html">
-                Projects
-            </a>
+            <li class="nav-item active">
+              <a class="nav-link" href="projects.html">Projects <span class="sr-only">(current)</span></a>
             </li>
-            <li class="buttontheme"> <a class="linktheme" href="skills.html">
-                Skills
-            </a>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="contact.html">Contact</a>
             </li>
-            <li class="buttontheme"> <a class="linktheme" href="contactme.html">
-                Contact Me!
-            </a>
-            </li>
-            <li class="buttontheme"> <a class="linktheme theme-button" href="#">
-                Theme Switch
-            </a>
-            </li>
-        </ul>
-    </nav>
+          </ul>
+        </div>
+      </nav>
+      <table>
+        <tr>
+            <td>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top cardimage" src="img/tictactoe.jpg" alt="IMG of Tic Tac Toe">
+                    <div class="card-body">
+                    <h5 class="card-title">Tic-Tac-Toe/BKE</h5>
+                    <p class="card-text">Tic-Tac-Toe made entirely out of HTML, CSS and JS. Project for school.</p>
+                    <a href="other projects/sd20-js-p4-bke-eindopdracht-jamiedemooij/index.html" class="btn btn-primary">Go to project</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top cardimage" src="img/js-logo.png" alt="IMG of JS">
+                    <div class="card-body">
+                    <h5 class="card-title">BMI Calculator</h5>
+                    <p class="card-text">A BMI Calculator made entirely out of HTML, CSS and JS. Project for school.</p>
+                    <a href="BMIcalculator/rekentool.html" class="btn btn-primary">Go to project</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top cardimage" src="img/colors.png" alt="IMG of colors">
+                    <div class="card-body">
+                    <h5 class="card-title">Color Theme Changer</h5>
+                    <p class="card-text">A color theme changer made entirely out of CSS and JS. Project for school.</p>
+                    <a href="#" class="btn btn-primary color-btn">Change theme</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top cardimage" src="img/chatting.png" alt="IMG of chat">
+                    <div class="card-body">
+                    <h5 class="card-title">Local Chat App</h5>
+                    <p class="card-text">A local Chat App with login page made entirely out of HTML CSS and JS. Project for school.</p>
+                    <a href="Chat App/Interaction-Design-Chat-App/index.html" class="btn btn-primary">Go to project</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <div class="card" style="width: 18rem;">
+                    <img class="card-img-top cardimage" src="img/cards.jpg" alt="IMG of cards">
+                    <div class="card-body">
+                    <h5 class="card-title">Higher/Lower Card Game</h5>
+                    <p class="card-text">A Hi/Lo guessing game made entirely out of C#. Project for school.</p>
+                    <a href="https://github.com/jamiedemooij/Card-Game" class="btn btn-primary">Go to project</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+              <div class="card" style="width: 18rem;">
+                      <img class="card-img-top cardimage" src="img/dice.jpg" alt="IMG of dice">
+                      <div class="card-body">
+                      <h5 class="card-title">Dice Game</h5>
+                      <p class="card-text">A dice rolling game made entirely out of C#. Project for school.</p>
+                      <a href="https://github.com/jamiedemooij/Dice-Game" class="btn btn-primary">Go to project</a>
+                      </div>
+                  </div>
+              </td>
+        </tr>
+    </table>
     <script src="js/main.js"></script>
 </body>
 </html>

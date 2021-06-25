@@ -1,9 +1,7 @@
-const bodyVar = document.querySelector('.bodyclass');
-const buttonVar = document.querySelector('.theme-button');
-
-if(bodyVar){
-    buttonVar.addEventListener('click', function(){
-        bodyVar.classList.toggle('blue');
-    });
+const entireBody = document.body;
+const colorButton = document.querySelector('.color-btn');
+if(entireBody){
+    colorButton.addEventListener('click', function(){
+        entireBody.classList.toggle('newColor');
+    })
 }
-

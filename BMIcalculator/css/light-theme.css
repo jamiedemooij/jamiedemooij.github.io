@@ -1,5 +1,5 @@
 
-.linktheme {
+  .linktheme {
     border-style:solid;
     border-width:medium;
     margin:10px;
@@ -20,11 +20,11 @@
     border-width:3px;
       }
   
-.buttontheme {
+  .buttontheme {
     float: left;
   }
   
-.buttontheme .linktheme {
+  .buttontheme .linktheme {
     display: block;
     color: black;
     text-align: center;

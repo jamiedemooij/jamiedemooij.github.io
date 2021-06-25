@@ -1,0 +1,56 @@
+body{
+    background-color:rgb(234, 234, 234);
+}
+.navbar{
+    border: 2px solid black;
+    background-color:#b6b6b6;
+}
+
+.nav-item{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #5D5C61;
+    margin-top: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.jumbotron-index{
+    margin-top:100px;
+    width: 1500px;
+    height: 500px;
+    text-align: center;
+}
+
+.card{
+    margin:25px;
+}
+
+.cardimage{
+    width: 286px;
+    height: 300px;
+}
+
+.newColor{
+    background-color:pink;
+}
+
+.newColor .navbar{
+    background-color:palevioletred ;
+}
+
+.newColor .nav-item{
+    background-color:rgb(255, 125, 125);
+}
+
+.contact{
+    border: 2px solid black;
+    border-radius: 2px;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 500px;
+    
+}

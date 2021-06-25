@@ -4,56 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/dark-theme.css">
-    <title>About Jamie</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bodyclass">
-    <nav>
-        <ul class="navtheme">
-            <li class="buttontheme"> <a class="linktheme" href="index.html">
-                Home
-            </a>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a class="navbar-brand" href="#">Portfolio Jamie De Mooij</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="buttontheme"> <a class="linktheme active" href="aboutme.html">
-                About Me
-            </a>
+            <li class="nav-item active">
+              <a class="nav-link" href="aboutme.html">About Me <span class="sr-only">(current)</span></a>
             </li>
-            <li class="buttontheme"> <a class="linktheme" href="projects.html">
-                Projects
-            </a>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
             </li>
-            <li class="buttontheme"> <a class="linktheme" href="skills.html">
-                Skills
-            </a>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="contact.html">Contact</a>
             </li>
-            <li class="buttontheme"> <a class="linktheme" href="contactme.html">
-                Contact Me!
-            </a>
-            </li>
-            <li class="buttontheme"> <a class="linktheme theme-button" href="#">
-                Theme Switch
-            </a>
-            </li>
-        </ul>
-    </nav>
-    <header class="headerclass">
-        <H1> About Me</H1>
-        <p>
-            Before going to the ROC Mondriaan, I went to school at the HML <br>
-            Here I graduated from MAVO and went directly to ROC <br>
-            I've wanted to be a programmer ever since I was 12, but my taste <br>
-            in area has changed quite a lot. <br>
-            I used to want to be a Game Developer, and then Web Designer <Br>
-            My taste currently is at Cyber Security! <br>
-            I live in The Hague, where I have lived for the past 13 years <br>
-            along with my Mother, Father, Sister and dog. <br>
-            I've been into playing video games ever since I was very little. <br>
-            I could type my own name before I could speak full sentences! <br>
-            My all time favorite video game has to be Minecraft, it was the first <br>
-            video game I ever got! I must've put thousands of hours into that game! <br>
-        </p>
-    </header>
-    <script src="js/main.js"></script>
+          </ul>
+        </div>
+      </nav>
+      <table>
+          <tr>
+              <td>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/rocmondriaan.png" alt="IMG of school I go to">
+                    <div class="card-body">
+                    <h5 class="card-title">Education</h5>
+                    <p class="card-text">I graduated High School on a MAVO level, and am now doing a study in Software Development at MBO4 level. I am in my first year</p>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/myModelWork.JPG" alt="IMG of my hobby">
+                    <div class="card-body">
+                    <h5 class="card-title">Hobbies</h5>
+                    <p class="card-text">My hobbies include playing Video Games, drawing, dancing, and occasionally some modelwork. </p>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top cardimage" src="img/dictionary.jpg" alt="IMG of a dictionary">
+                    <div class="card-body">
+                    <h5 class="card-title">Languages</h5>
+                    <p class="card-text">I am completely fluent in both English and Dutch, I don't have a preference for either language</p>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top cardimage" src="img/js-logo.png" alt="JS Logo">
+                    <div class="card-body">
+                    <h5 class="card-title">Programming</h5>
+                    <p class="card-text">I have beginner skills in HTML, CSS, Bootstrap, JS and C#. You can see projects I've done in the "Projects" tab</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top cardimage" src="img/jumbo.png" alt="IMG of Jumbo logo">
+                    <div class="card-body">
+                    <h5 class="card-title">Work experience</h5>
+                    <p class="card-text">I've worked as a Cashier at McDonalds from January 2020 until June 2020. I work as a Cashier at Jumbo since December 2020.</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
