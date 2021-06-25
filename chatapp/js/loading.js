@@ -1,13 +1,13 @@
-const numb = document.querySelector(".numb");
+const numb = document.querySelector(`.numb`);
             let counter = 0;
             setInterval(()=>{
-              if(counter == 100){
+              if (counter == 100){
                 clearInterval();
-                window.location.href = "chatting.html";
-                alert("Chatroom loaded");
-              }else{
+                window.location.href = `chatting.html`;
+                alert(`Chatroom loaded`);
+              } else {
                 counter+=1;
-                numb.textContent = counter + "%";
+                numb.textContent = counter + `%`;
               }
             }, 40);
             
