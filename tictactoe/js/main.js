@@ -1,4 +1,4 @@
-import Player from `./Player.js`;
+import Player from "./Player.js";
 
 /**
  * To start:
@@ -35,18 +35,17 @@ const playerNameTwo = document.querySelector(`.playerTwo`);
 //for ...
 for (let i = 0; i<fields.length; i++){
     fields[i].addEventListener(`click`, function(){
-        if (hasWon == false) {
+        if (hasWon == false){
             addSymbolToField(i);
             showCurrentlyPlaying();
-            if (keepPlaying == true){
+            if(keepPlaying == true){
                 addSymbolToSystem(i);
                 showPoints();
             }
         } else {
             alert(`There already is a winner! Please reset`);
         }
-    }
-    )
+    })
 }
 
 /**
@@ -132,8 +131,8 @@ function addSymbolToSystem(field){
             winSeven[2] = `X`;
             fieldCount++;
         }
-    }else {
-        if( field == 0){
+    } else {
+        if (field == 0){
             winOne[0] = `O`;
             winFour[0] = `O`;
             winSeven[0] = `O`;
@@ -325,9 +324,9 @@ function showPoints(){
 function pointAmount(){
     if (fieldCount == 5){
         addingPoints = 3;
-    } else if (fieldCount == 9){
+    }else if (fieldCount == 9){
         addingPoints = 1;
-     }else {
+    }else {
         addingPoints = 2;
     }
 }
